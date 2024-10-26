@@ -1,2 +1,2 @@
-# measures-optimization
-Summary of optimizing evaluation measures in classification, ranking and segmentation
+# Summary of Optimizing Evaluation Measures in Classification, Ranking and Segmentation
+
