@@ -6,22 +6,19 @@ This repository includes a list of references for optimizing different performan
 
 
 
-### Binary classification
+### Binary Classification
 
 | metric | reference|
 | --- | --- |
-| Accuracy | [1,2]
-| F measure | [3,4]
+| Accuracy | [1,2] |
+| F Measure | [3] |
+| Balanced Accuracy | [4] |
+| G-Mean | [4] |
+| Matthews Correlation Coefficient | [5] |
 
-### Multi-class classification
+<!-- ### Ranking -->
 
-| metric | reference|
-| --- | --- |
-| Accuracy | [5]
-
-### Ranking
-
-### Segmentation
+<!-- ### Segmentation -->
 
 
 ### References
@@ -29,8 +26,8 @@ This repository includes a list of references for optimizing different performan
 
 [2] Zhang, T. (2004). Statistical behavior and consistency of classification methods based on convex risk minimization. The Annals of Statistics, 32(1), 56-85.
 
-[3] Nan, Y., Chai, K. M., Lee, W. S., & Chieu, H. L. (2012). Optimizing F-measure: A tale of two approaches. arXiv preprint arXiv:1206.4625.
+[3] Ye, N., Chai, K. M. A., Lee, W. S., & Chieu, H. L. (2012). Optimizing F-measures: a tale of two approaches. In Proceedings of the 29th International Coference on International Conference on Machine Learning (pp. 1555-1562).
 
-[4] Lipton, Z. C., Elkan, C., & Naryanaswamy, B. (2014). Optimal thresholding of classifiers to maximize F1 measure. In Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2014, Nancy, France, September 15-19, 2014. Proceedings, Part II 14 (pp. 225-239). Springer Berlin Heidelberg.
+[4] Narasimhan, H., Vaish, R., & Agarwal, S. (2014). On the statistical consistency of plug-in classifiers for non-decomposable performance measures. Advances in neural information processing systems, 27.
 
-[5] Tewari, A., & Bartlett, P. L. (2007). On the Consistency of Multiclass Classification Methods. Journal of Machine Learning Research, 8(5).
+[5] Boughorbel, S., Jarray, F., & El-Anbari, M. (2017). Optimal classifier for imbalanced data using Matthews Correlation Coefficient metric. PloS one, 12(6), e0177678.
